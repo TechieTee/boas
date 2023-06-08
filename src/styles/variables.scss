@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+$Poppins: "Poppins", sans-serif;
+
+// colors
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$primary: rgb(162, 162, 246);
+$bg: #e9cdb0;
+
+// fonts
+
+
+
+
+h1, h2, h3, h4, h5, h6, .title, .large-title, .giant-title, .massive-title, .biggest-title, .standard-title, .small-title, .section-popup.cc-popup .cc-popup-title, #shopify-product-reviews .spr-form-title, #shopify-product-reviews .spr-header-title {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -0.025em;
+    text-transform: none;
+    word-break: break-word;
+    font-size: 34px;
+}
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}

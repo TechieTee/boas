@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: $Poppins;
+    color: $dark;
+    letter-spacing: 0;
+
+    
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 0.025em;
+
+}
+
+#root {
+    height: 100%;
+}

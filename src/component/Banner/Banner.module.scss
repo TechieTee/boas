@@ -1,0 +1,247 @@
+@import "../../styles/variables.scss";
+
+// .banner {
+//     // height: calc(100vh - #{$headerHeight});
+//     background: $bg;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     h1 {
+//         padding: 1.5rem 2.5rem;
+//         background: linear-gradient(220deg, $primary, rgba($primary, 0.5));
+//         border-radius: $borderRadius calc(#{$borderRadius} * 10);
+//     }
+// }
+
+
+
+
+.banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('//cdn.shopify.com/s/files/1/0598/2194/9121/files/urban-vintage-denimn-on-hangers_600x.jpg?v=1676042045');
+    // filter: brightness(0.7);
+    min-height: 30rem;
+
+    display: flex;
+        justify-content: center;
+       align-items: center;
+ 
+
+  .banner_div {
+    padding: 40px 50px;
+
+    .banner_heading {
+        // color: #ffffff;
+        // margin-top: 70px;
+        // font-family: Poppins;
+        // font-size: 28px;
+        // font-weight: 600;
+        // line-height: 35px;
+        // letter-spacing: 0;
+        // text-align: center;
+
+        color: #ffffff;
+        margin-top: 70px;
+        font-family: Poppins;
+        font-size: 56px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 80px;
+        
+    
+      }
+      .banner_text {
+        // color: #ffffff;
+        // font-family: Poppins;
+        // font-size: 1.0rem;
+        // font-weight: 400;
+        // line-height: 36px;
+        // text-align: center;
+        // padding: 1.5rem;
+        // margin-bottom: 2rem;
+
+        color: #ffffff;
+        font-size: 1.5rem;
+    line-height: 35px;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+      }
+    
+      .banner_buttons {
+        gap: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        height: auto;
+
+        .banner_button_shop {
+            display: inline-block;
+            width: 10rem;
+            background: #43A106;
+            padding: 14px, 40px, 14px, 40px;
+            text-align: center;
+            border-radius: 32px;
+            color: white;
+            font-weight: 400;
+            line-height: 25px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 2 rem;
+          }
+        
+          .banner_button_learn {
+            width: 18rem;
+            height: 3.5rem;
+            background: #FFFFFF;
+            color: #43A106;
+            text-align: center;
+            border-radius: 32px;
+            font-weight: 400;
+            display: inline-block;
+            margin-right: auto;
+            margin-left: auto;
+
+            .banner_button_learn > span {
+                margin-right: 0.7rem;
+              }
+          }
+        
+    
+      }
+    
+  }
+
+ 
+ 
+  
+
+ 
+
+  @media(min-width: 602px) {
+    .banner{
+      position: relative;
+      z-index: 1;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.9;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('//cdn.shopify.com/s/files/1/0598/2194/9121/files/urban-vintage-denimn-on-hangers.jpg?v=1676042045');
+      .banner_div {
+        padding: 40px 100px;
+
+        .banner_heading {
+            margin-top: 70px;
+            font-family: Poppins;
+            font-size: 56px;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 80px;
+          }
+
+     
+      .banner_text {
+        font-size: 1.0rem;
+        line-height: 30px;
+        text-align: center;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .banner_buttons {
+        flex-direction: row;
+        justify-content: space-around;
+
+        .banner_button_learn {
+            width: 18rem;
+            height: auto;
+            background: #FFFFFF;
+            color: #43A106;
+            display: inline-block;
+            margin-right: 10rem;
+            margin-left: 0;
+          }
+      
+          .banner_button_shop {
+            width: 12rem;
+            height: auto;
+            margin-left: 10rem;
+            margin-right: 0;
+            line-height:auto;
+          }
+      }
+    }
+  
+    }
+
+  }
+
+  @media(min-width: 992px) {
+    .banner{
+      position: relative;
+      z-index: 1;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.9;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('//cdn.shopify.com/s/files/1/0598/2194/9121/files/urban-vintage-denimn-on-hangers.jpg?v=1676042045');
+      .banner_div {
+        padding: 40px 100px;
+
+        .banner_buttons{
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 0;
+
+            .banner_button_learn {
+                width: 18rem;
+                height: auto;
+                font-weight: 400;
+                display: inline-block;
+                margin-right: 22rem;
+                margin-left: 0;
+              }
+          
+              .banner_button_shop {
+                display: inline-block;
+                width: 12rem;
+                font-weight: 400;
+                margin-right: 0;
+                margin-left: 25rem;
+                line-height: auto;
+              }
+          }
+      
+        
+      
+          .banner_text {
+            font-size: 1.5rem;
+            line-height: 35px;
+            text-align: center;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+          }
+      
+          .banner_heading {
+            margin-top: 70px;
+            font-family: Poppins;
+            font-size: 56px;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 80px;
+          }
+      }
+    }
+
+  }
+
+}
