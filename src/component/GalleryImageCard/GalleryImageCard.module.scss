@@ -1,7 +1,22 @@
 
 @import "../../styles/variables.scss";
+//  Gallery Image Card
+.galleryimagecard{
+  
+  
+    padding: 10px 30px 10px 0;
+   
+    width: 100%;
 
-
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+    
+  }  
+}
+// Image Card
 .card_overlay{
     background-color: rgba(0, 0, 0, 0.4);
     justify-content: center;

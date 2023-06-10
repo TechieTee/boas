@@ -34,6 +34,36 @@ $borderRadius: 12px;
 // header height
 $headerHeight: 100px;
 
+// button
+
+
+
+  button {
+       
+        line-height: 1.4em;
+        min-width: 148px;
+        padding: 8px 20px;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: auto;
+        border-radius: 20px;
+        border: 0;
+        font-size: 1rem;
+        cursor: pointer;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        text-transform: uppercase;
+        letter-spacing: inherit;
+        white-space: normal;
+        box-shadow: 0 0 0 1px #43a106;
+        background-color: #43a106;
+        color: #ffffff;
+        transition: background-color 0.25s, color 0.25s, box-shadow 0.25s;
+    }
+
+
+
 @mixin breakpoint($point) {
     @if $point == md {
         // 768px

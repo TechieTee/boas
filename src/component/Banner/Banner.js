@@ -8,7 +8,7 @@ const Banner = () => {
         <h2 className={classes.banner_heading}>Meet the new shopping experience for vintage jeans</h2>
         <p className={classes.banner_text}>BOAS is the best place for sustainable and pre-owned fashion, where all profits are donated to charity.</p>
         <div className={classes.banner_buttons}>
-          <button className={classes.banner_button_shop}>ddd</button> <button className={classes.banner_button_learn}>ddd</button>
+          <button className={classes.banner_button_shop}>SHOP NOW</button> <button className={classes.banner_button_learn}>ABOUT OUR MISSION</button>
         </div>
       </div>
     </div>

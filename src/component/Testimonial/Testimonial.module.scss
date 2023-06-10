@@ -1,0 +1,18 @@
+.testimonial_wrapper{
+    
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    text-align: center;
+    .testimonial{
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 2px 5px #ccc;
+        padding: 40px 40px 70px 40px;
+        flex-direction: column;
+        display: flex;
+      
+
+    }
+}
