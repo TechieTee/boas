@@ -1,31 +1,49 @@
 export const galleryImageCardsData = [
     {
       id: 1,
-      title: "get money",
-      content: "by studying"
+      title: "Shop Women",
+      content: "Discounted Vintage levi's and more"
     },
     {
       id: 2,
-      title: "get God",
-      content: "by studying"
+      title: "Shop Men",
+      content: "Discounted Vintage levi's and more"
     },
     {
       id: 3,
-      title: "get money",
-      content: "by studying"
+      title: "Shop Kids",
+      content: "3-16 years"
     },
     {
       id: 4,
-      title: "get God",
-      content: "by studying"
+      title: "Shop Baby",
+      content: "0-3 years"
     }
   ];
   
+  export const forTheNewBorn = [
+    {
+      id: 1,
+      title: "best seller"
+    },
+    {
+      id: 2,
+      title: "nursery"
+    },
+    {
+      id: 3,
+      title: "new born"
+    },
+    {
+      id: 4,
+      title: "all sustainable"
+    }
+  ];
 
   export const donateImageCardsData = [
     {
       id: 1,
-      title: "get money",
-      content: "by studying"
+      title: "€2.378",
+      content: "Donated to charities that save kids' lives!"
     }
   ];

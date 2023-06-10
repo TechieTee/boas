@@ -1,15 +1,15 @@
 
 
 import Brand from "../component/Brand/Brand";
-import GalleryImageCards from "../component/GalleryImageCard/GalleryImageCards";
 import ImageText from "../component/ImageText/ImageText";
 import LogoList from "../component/LogoList/LogoList";
 import NewsLetter from "../component/NewsLetter/NewsLetter";
 import Testimonial from "../component/Testimonial/Testimonial";
 import classes from "../App.module.scss";
-import DonateImageCard from "../component/GalleryImageCard/DonateImageCard";
 import Banner from "../component/Banner/Banner";
 import Blog from "../component/Blog/Blog";
+import {galleryImageCardsData, forTheNewBorn, donateImageCardsData} from "../component/GalleryImageCard/GalleryImageCardsData";
+import ImageCard from "../component/GalleryImageCard/GalleryImageCard";
 
 
 
@@ -29,18 +29,33 @@ const Home = () => {
 
 
 
-<GalleryImageCards
-
-/>
+<div className={classes.galleryimagecard}>
+    <ul className={classes.cards}>
+       {galleryImageCardsData.map((todo) => (
+         <ImageCard
+           key={todo.id}
+           title={todo.title}
+           content={todo.content}
+         />
+       ))}
+    </ul>
+    </div>
 
 
 <h2 className={classes.brand_title}>For the little ones</h2>
 
 
-<GalleryImageCards
-
-
-/>
+<div className={classes.galleryimagecard}>
+    <ul className={classes.cards}>
+       {forTheNewBorn.map((todo) => (
+         <ImageCard
+           key={todo.id}
+           title={todo.title}
+           content={todo.content}
+         />
+       ))}
+    </ul>
+    </div>
 
 <Testimonial />
 
@@ -53,10 +68,19 @@ const Home = () => {
 
 
 
-<DonateImageCard
-
-
-/>
+<div className={classes.galleryimagecard}>
+    <ul className={classes.cards}>
+       {donateImageCardsData.map((todo) => (
+         <ImageCard
+           key={todo.id}
+           title={todo.title}
+           content={todo.content}
+           button
+           buttontext="See Donations"
+         />
+       ))}
+    </ul>
+    </div>
 
 
 

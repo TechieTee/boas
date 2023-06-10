@@ -1,7 +1,22 @@
+//  Gallery Image Card
+.galleryimagecard{
+  
+  
+    padding: 10px 30px 10px 0;
+   
+    width: 100%;
 
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+    
+  }  
+}
 
 h2{
-    text-align: center !important;
+    text-align: center;
    
     font-size: 34px;
     margin: 40px 0 20px 0 !important;

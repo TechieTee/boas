@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./GalleryImageCard.module.scss"
 
-const ImageCard = ({ title, content, buttontext }) => {
+const ImageCard = ({ title, content, button, buttontext }) => {
   return (
 
   
@@ -11,7 +11,7 @@ const ImageCard = ({ title, content, buttontext }) => {
         <div className={classes.card_content}>
           <h2 className={classes.card_title}>{title}</h2>
           <p className={classes.card_text}>{content}</p>
-        <button>button</button>
+  {button && <button>{buttontext}</button>}
         </div>
       </div>
     </li>

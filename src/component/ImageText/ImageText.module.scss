@@ -7,7 +7,7 @@
     margin-bottom: 60px;
     width: 100%;
 
-// new
+
 
 .textimage_container{
 
@@ -37,9 +37,13 @@
     .textimage_textcontent{
         text-transform: none !important;
         max-height: 27rem;
-        padding: 60px;
+         padding:  30px 60px;
         width: 50%;
-        text-align: left;
+font-weight: normal;
+      
+
+        .imagetext_title{
+        text-align: left!important;}
     }
 
 

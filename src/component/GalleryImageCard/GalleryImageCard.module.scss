@@ -1,22 +1,7 @@
 
 @import "../../styles/variables.scss";
-//  Gallery Image Card
-.galleryimagecard{
-  
-  
-    padding: 10px 30px 10px 0;
-   
-    width: 100%;
 
-  .cards {
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      padding: 0;
-    
-  }  
-}
-// Image Card
+
 .card_overlay{
     background-color: rgba(0, 0, 0, 0.4);
     justify-content: center;
@@ -41,8 +26,8 @@
     margin-bottom: 30px;
     flex: 1 1 300px;
  
-    background-position: center center;
-    background-image: url(https://cdn.shopify.com/s/files/1/0598/2194/9121/files/toddler-plays-with-doll_900x.jpg?v=1674577368);
+    background-position: center bottom;
+    background-image: url(https://cdn.shopify.com/s/files/1/0598/2194/9121/files/sunset-swings-smiles_720x.jpg?v=1678787376);
 
 
     // background-color: white;
@@ -77,10 +62,10 @@
 
                 .card_title {
                     color: #ffffff;
-                    font-size: 34px;
+                    font-size: 32px;
                  
                     letter-spacing: 1px;
-                    text-transform: capitalize;
+                   
                     margin: 0px;
                   }
                   
