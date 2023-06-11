@@ -44,7 +44,7 @@ const Header = () => {
     return (
         <header className={classes.header}>
             <div className={classes.header__content}>
-                <nav
+            <nav
                     className={`${classes.header__content__nav} ${
                         menuOpen && size.width < 768 ? classes.isMenu : ""
                     }`}
@@ -52,29 +52,28 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                Women
+                                PageOne
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                            Men
+                                PageTwo
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                Kids
+                                PageOne
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                          Baby
+                                PageTwo
                             </Link>
                         </li>
-                    
                     </ul>
-                
+                 
                 </nav>
-                <Link to="/" className={classes.header__content__logo}>
+            <Link to="/" className={classes.header__content__logo}>
                   <img src="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/BOAS_Logo_Transparent_180x.png?v=1646145898" alt="logo"/>
                 </Link>
                 <nav
@@ -85,29 +84,28 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                               About Us
+                                PageOne
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                            Account
+                                PageTwo
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                             Cart
+                                PageOne
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                        Language
+                                PageTwo
                             </Link>
                         </li>
-                    
                     </ul>
-                
+                  
                 </nav>
-              
+                
                 <div className={classes.header__content__toggle}>
                     {!menuOpen ? (
                         <BiMenuAltRight onClick={menuToggleHandler} />
@@ -115,37 +113,24 @@ const Header = () => {
                         <AiOutlineClose onClick={menuToggleHandler} />
                     )}
                 </div>
+      
             </div>
-
+      
 
 
 
             <div className={classes.header__content}>
-                <nav
-                    className={`${classes.header__content__nav} ${
-                        menuOpen && size.width < 768 ? classes.isMenu : ""
-                    }`}
-                >
-                   
-                
-                </nav>
+               
+            
             <div className={classes.subheader_content}>
             <marquee className={classes.marquee} behavior="scroll" direction="left" scrollamount="20">
  <span>FREE SHIPPING ON JEANS</span>
   </marquee>
             </div>
-                <nav
-                    className={`${classes.header__content__nav} ${
-                        menuOpen && size.width < 768 ? classes.isMenu : ""
-                    }`}
-                >
-                  
-                
-                </nav>
-              
-              
+      
             </div>
-          
+
+
         </header>
     );
 };
