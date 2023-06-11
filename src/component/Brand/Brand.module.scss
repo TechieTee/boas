@@ -1,16 +1,16 @@
-.logolist_wrapper{
+.brand_wrapper{
 
     padding-left: 30px;
     padding-right: 30px;
    
     width: 100%;
-    .logolist_title{
+    .brand_title{
         text-align: center !important;
         margin: 40px 0 20px 0 !important;
         font-size: 34px;
         display: block !important;
     }
-    .logolist_listsection{
+    .brand_listsection{
         padding-top: 40px;
         padding-bottom: 40px;
         margin-top: 10px;
@@ -19,7 +19,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
-    .logolist{
+    .brand{
         display: flex;
         // flex-wrap: wrap;
         justify-content: center;
@@ -28,14 +28,14 @@
         margin-right: 0px;
       
         padding: 30px;
-        .logolist_logo{
+        .brand_logo{
             // margin: 0 15px 30px;
             flex: 0 0 calc(20% - 30px);
             display: flex;
             flex-direction: column;
 
 
-            .logolist_logoimage{
+            .brand_logoimage{
                 display: flex;
                 align-items: center;
                 flex: 1 1 100%;
@@ -65,4 +65,23 @@
     }
     }
 }
+
+@media only screen and (max-width: 767px) {
+
+    .brand {
+        display: flex!important;
+        flex-wrap: wrap!important;
+        justify-content: center;
+        text-align: center;
+   
+      gap: 30px;
+        
+       .last_logo{    width: 80px;
+        margin-top: 40px;}
+   
+
+    }
+
+     
+  }
 

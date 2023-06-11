@@ -1,5 +1,4 @@
-
-.imagetext_wrapper{
+.imagetext_wrapper {
 
     padding-left: 30px;
     padding-right: 30px;
@@ -9,57 +8,78 @@
 
 
 
-.textimage_container{
-
- 
-    border-radius: 20px;
-    background-color: #ffffff;
-    color: #333333;
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    .textimage_image{
-        max-height: 27rem;
-      
-        width: 50%;
-.textimage_imagesize{
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    
-    img{height: 100%;
-    width: 100%;  border-radius: 20px 0 0 20px;}
-}
-      
-    }
-    .textimage_textcontent{
-        text-transform: none !important;
-        max-height: 27rem;
-         padding:  30px 60px;
-        width: 50%;
-font-weight: normal;
-      
-
-        .imagetext_title{
-        text-align: left!important;}
-    }
+    .textimage_container {
 
 
-   @media screen and (min-width: 1020px) {
-    .image-with-text__image{
-          max-height: 27rem;
+        border-radius: 20px;
+        background-color: #ffffff;
+        color: #333333;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .textimage_image {
+            max-height: 27rem;
+
+            width: 50%;
+
+            .textimage_imagesize {
+                height: 100%;
+                width: 100%;
+                padding: 0;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20px 0 0 20px;
+                }
+            }
+
         }
-  
-      .section-template--18306182840666__fae9731c-cd44-4acf-88da-0e5a4e1e3ece{
-       padding: 0rem 1.6rem;
+
+        .textimage_textcontent {
+            text-transform: none !important;
+            max-height: 27rem;
+            padding: 30px 60px;
+            width: 50%;
+            font-weight: normal;
+
+
+            .imagetext_title {
+                text-align: left !important;
+            }
+        }
+
+
+
+
+
     }
-  
+
+    @media only screen and (max-width: 767px) {
+
+
+        .textimage_container {
+            display: block;
+
+            .textimage_image {
+                max-height: 27rem;
+
+                width: 100%;
+            }
+        }
+
+        .textimage_textcontent {
+            text-transform: none !important;
+            max-height: 27rem;
+
+            padding: 0 20px !important;
+            width: 100% !important;
+        }
+
+        button {
+            margin-bottom: 40px;
+        }
     }
 }
-
-}
- 
-
-

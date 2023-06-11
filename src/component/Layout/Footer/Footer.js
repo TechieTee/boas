@@ -9,7 +9,7 @@ const Footer = () => {
         <div className={classes.footer_wrapper}>
         <div className={classes.section}>
         <div>
-    <img src="//cdn.shopify.com/s/files/1/0598/2194/9121/t/54/assets/boas-logo.png?v=174546100373105226421679307177" alt="test" className={classes.logo}/>
+    <img src="//cdn.shopify.com/s/files/1/0598/2194/9121/t/54/assets/boas-logo.png?v=174546100373105226421679307177" alt="test" className={classes.boaslogo}/>
   </div>
 <p>You've made it to the end!</p>
    <p>Thanks for taking the time. If you're here because you're lost, feel free to and we'll get you  <Link a href="https://boas.co/pages/contact-us" style={{color:'#43A106'}}>contact us</Link>    back on track.
@@ -18,44 +18,44 @@ const Footer = () => {
    <h3>Follow Us On:</h3>
 
 
-   <div className={classes.social_icons}>
-      <Link href="https://www.facebook.com/BOASgoods/" target="_blank" className={classes.social_icons_link}>
+ <div className={classes.social_icons}>
+    <span className={classes.social_icons_link}>  <Link href="https://www.facebook.com/BOASgoods/" target="_blank" >
       <div className={classes.social_icons_fab}> 
          <div className={classes.social_icons_logo}>
             <img src="//cdn.shopify.com/s/files/1/0598/2194/9121/t/54/assets/facebook_logo.png?v=111768930219237438961679307177" alt="test" className={classes.logo} />
         </div>
       </div>
-      </Link>
-      <Link href="https://www.instagram.com/boas.good/" target="_blank" className={classes.social_icons_link}>
+      </Link></span>
+      <span className={classes.social_icons_link}>  <Link href="https://www.instagram.com/boas.good/" target="_blank">
       <div className={classes.social_icons_fab}> 
       <div className={classes.social_icons_logo}>
               <img src="//cdn.shopify.com/s/files/1/0598/2194/9121/t/54/assets/instagram_logo.png?v=69111395402489423731679307177" alt="test" className={classes.logo} />
             </div>
           </div>
-      </Link>
-      <Link href="https://www.tiktok.com/@boas.good" target="_blank" className={classes.social_icons_link}>
+      </Link></span>
+      <span className={classes.social_icons_link}>  <Link href="https://www.tiktok.com/@boas.good" target="_blank" >
       <div className={classes.social_icons_fab}> 
       <div className={classes.social_icons_logo}>
             <img src="//cdn.shopify.com/s/files/1/0598/2194/9121/t/54/assets/tiktok_logo_new.png?v=28475546769171832871679307177" alt="test" className={classes.logo} />
           </div>
         </div>
-      </Link>
-      <Link href="https://www.linkedin.com/company/boas-good" target="_blank" className={classes.social_icons_link}>
+      </Link></span>
+      <span className={classes.social_icons_link}>  <Link href="https://www.linkedin.com/company/boas-good" target="_blank" >
       <div className={classes.social_icons_fab}> 
       <div className={classes.social_icons_logo}>
             <img src="//cdn.shopify.com/s/files/1/0598/2194/9121/t/54/assets/linkedin_logo.png?v=148665479824603558871679307177" alt="test" className={classes.logo} />
           </div>
         </div>
-      </Link>
+      </Link></span>
 
-      <Link href="https://open.spotify.com/show/58n1Z5bfAfQDB9xIbzYzHX?si=f204bc31215544e9" target="_blank" className={classes.social_icons_link}>
+      <span className={classes.social_icons_link}> <Link href="https://open.spotify.com/show/58n1Z5bfAfQDB9xIbzYzHX?si=f204bc31215544e9" target="_blank" >
       <div className={classes.social_icons_fab}> 
       <div className={classes.social_icons_logo}>
             <img src="//cdn.shopify.com/s/files/1/0598/2194/9121/t/54/assets/spotify_logo_new.png?v=27010289175530569261679307177" alt="test" className={classes.logo} />
           </div>
         </div>
-      </Link>
-    </div>
+      </Link></span>
+    </div> 
 
 
             </div>
@@ -93,7 +93,8 @@ const Footer = () => {
     <form method="post" action="/contact#contact_form" accept-charset="UTF-8" className={classes.contact_form}>
         <input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
         <input type="email" placeholder="Enter your email address" required value="" className={classes.footer_email} name="contact[email]"/>
-        <button type="submit" className={classes.submit_button_footer} href="https://tree-nation.com/profile/impact/boas#co2">Subscribe</button>
+       <button type="submit" className={classes.submit_button_footer} href="https://tree-nation.com/profile/impact/boas#co2">Subscribe</button>
+  
     </form>
     </div>
     <br/>

@@ -72,7 +72,7 @@ const LogoList = () => {
  <div className={classes.logolist_logoimage}>
  <div className={classes.image_outer_wrapper}> <div className={classes.image_wrapper}>
  <Link to="/about">
-        <img style={{maxWidth:'110px'}}
+        <img className={classes.last_logo} style={{maxWidth:'110px'}}
           src="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/2022-vriendin-logo_240x.svg?v=1681817574"
           alt="example"
         />

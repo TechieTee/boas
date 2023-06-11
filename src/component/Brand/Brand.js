@@ -4,14 +4,14 @@ import classes from "./Brand.module.scss";
 
 const Brand = () => {
   return (
-    <div className={classes.logolist_wrapper}>
+    <div className={classes.brand_wrapper}>
 
-<div className={classes.logolist_listsection}>
-    <div className={classes.logolist}>
+<div className={classes.brand_listsection}>
+    <div className={classes.brand}>
         {/* logos */}
 
-    <div className={classes.logolist_logo}>
- <div className={classes.logolist_logoimage} >
+    <div className={classes.brand_logo}>
+ <div className={classes.brand_logoimage} >
   <div className={classes.image_outer_wrapper}>
   <div className={classes.image_wrapper}>
  <Link to="/about">
@@ -22,8 +22,8 @@ const Brand = () => {
       </Link>
  </div></div></div>
     </div>
-    <div className={classes.logolist_logo}>
- <div className={classes.logolist_logoimage} >
+    <div className={classes.brand_logo}>
+ <div className={classes.brand_logoimage} >
  <div className={classes.image_outer_wrapper}>
  <div className={classes.image_wrapper}>
  <Link to="/about">
@@ -34,8 +34,8 @@ const Brand = () => {
       </Link>
  </div></div></div>
     </div>
-    <div className={classes.logolist_logo}>
- <div className={classes.logolist_logoimage}>
+    <div className={classes.brand_logo}>
+ <div className={classes.brand_logoimage}>
  <div className={classes.image_outer_wrapper}> <div className={classes.image_wrapper}>
  <Link to="/about">
         <img style={{maxWidth:'150px'}}
@@ -46,8 +46,8 @@ const Brand = () => {
  </div>
     </div>
   
-    <div className={classes.logolist_logo}>
- <div className={classes.logolist_logoimage}>
+    <div className={classes.brand_logo}>
+ <div className={classes.brand_logoimage}>
  <div className={classes.image_outer_wrapper}> <div className={classes.image_wrapper}>
  <Link to="/about">
         <img style={{maxWidth:'150px'}}

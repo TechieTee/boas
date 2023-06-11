@@ -36,9 +36,9 @@ const Header = () => {
         setMenuOpen((p) => !p);
     };
 
-    const btnClickHandler = () => {
+    const ctaClickHandler = () => {
         menuToggleHandler();
-        navigate("/page-btn");
+        navigate("/page-cta");
     };
 
     return (
@@ -57,7 +57,6 @@ const Header = () => {
                             <Link to="/page-one" onClick={menuToggleHandler}>
                                 PageOne
                             </Link>
-                             {/* <a href={`page-one`} onClick={menuToggleHandler}>Your Name</a> */}
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
@@ -70,7 +69,7 @@ const Header = () => {
                             </Link>
                         </li>
                     </ul>
-                    <button onClick={btnClickHandler}>BTN Page</button>
+                    <button onClick={ctaClickHandler}>CTA Page</button>
                 </nav>
                 <div className={classes.header__content__toggle}>
                     {!menuOpen ? (

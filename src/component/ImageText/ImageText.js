@@ -18,8 +18,8 @@ const ImageText = () => {
           </div>
         </div>
         <div className={classes.textimage_textcontent}>
-          <div >
-            <h2 className={classes.imagetext_title} style={{paddingBottom:'15px'}}> Second-hand jeans at the perfect price</h2>
+          <div className={classes.content}>
+            <h2 className={classes.imagetext_title} style={{paddingBottom:'10px'}}> Second-hand jeans at the perfect price</h2>
             <p>All our jeans prices drop every few hours - here's how it works:</p>
             <p>
               <strong>1</strong> - Find you perfect pair(s) <br/>
@@ -27,7 +27,7 @@ const ImageText = () => {
               <strong>3</strong> - Buy -or- wait for the price drop <br/>
             </p>
           <p> Wait too long and someone else will snatch your jeans...</p> 
-            <button style={{marginTop:'15px'}}>Get your discounted jeans</button>
+            <button style={{marginTop:'10px'}}>Get your discounted jeans</button>
           </div>
         </div>
     </div>  </div>
