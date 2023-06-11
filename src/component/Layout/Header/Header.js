@@ -49,27 +49,28 @@ const Header = () => {
                         menuOpen && size.width < 768 ? classes.isMenu : ""
                     }`}
                 >
-                    <ul>
+                      <ul>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                PageOne
+                                Women
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                                PageTwo
+                            Men
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                PageOne
+                                Kids
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                                PageTwo
+                          Baby
                             </Link>
                         </li>
+                    
                     </ul>
                  
                 </nav>
@@ -84,26 +85,27 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                PageOne
+                               About Us
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                                PageTwo
+                            Account
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                PageOne
+                             Cart
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                                PageTwo
+                        Language
                             </Link>
                         </li>
+                    
                     </ul>
-                  
+                
                 </nav>
                 
                 <div className={classes.header__content__toggle}>

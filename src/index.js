@@ -9,7 +9,6 @@ import App from "./App";
 import ErrorPage from './ErrorPage';
 import Women from './pages/Women';
 import Men from './pages/Men';
-import PageBTN from './pages/PageBTN';
 
 
 const router = createBrowserRouter([
@@ -26,10 +25,7 @@ const router = createBrowserRouter([
         path: "page-two",
         element: <Men />,
       },
-      {
-        path: "page-btn",
-        element: <PageBTN />,
-      },
+     
     ],
   },
 ]);
