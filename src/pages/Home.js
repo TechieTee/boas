@@ -69,13 +69,11 @@ const Home = () => {
 <ImageText right src={imgText2} title="Saving lives while you live yours" paragraphone="We donate all profits to save kids lives, instead of giving it to rich investors." paragraphtwo="Buy what you were already buying, for the same price, but now you're helping save kids lives, and that makes you a LifeSaver!" btntxt='Learn More'/>
 
 
-<ImageText left src={imgText3} title="Sustainable Kids' Products" paragraphone="We read the labels, do the research and find the products you want, so you don/'t have to." paragraphtwo='Everything you want for your kid in one place.' btntxt='How?'/>
+<ImageText style={{marginTop:'2500px'}} left src={imgText3} title="Sustainable Kids' Products" paragraphone="We read the labels, do the research and find the products you want, so you don/'t have to." paragraphtwo='Everything you want for your kid in one place.' btntxt='How?'/>
+ 
 
 
-
-
-
-<div className={classes.galleryimagecard}>
+<div className={classes.galleryimagecard} >
     <ul className={classes.cards}>
        {donateImageCardsData.map((todo) => (
          <ImageCard
