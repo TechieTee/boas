@@ -65,7 +65,7 @@ const Footer = () => {
 
             <div className={classes.section}>
     <h3>ABOUT BOAS</h3>
-    <ul>
+    <ul style={{    marginLeft: '-40px'}}>
         <li><Link className={classes.link}  href="https://boas.co/pages/mission">Mission</Link></li>
         <li><Link className={classes.link}  href="https://boas.co/pages/sustainability">Sustainability</Link></li>
         <li><Link className={classes.link} href="https://boas.co/a/faq">FAQ</Link></li>
@@ -80,7 +80,7 @@ const Footer = () => {
 
 <div className={classes.section_newsletter}>
     <h3>Brands and Press</h3>
-    <ul>
+    <ul style={{    marginLeft: '-40px'}}>
         <li><Link className={classes.link} href="https://boas.co/pages/sell">Sell on BOAS</Link></li>
         <li><Link className={classes.link} href="https://boas.co/pages/brands">All Brands</Link></li>
       <li><Link className={classes.link} href="https://boas.co/pages/press">Press</Link></li>
