@@ -1,7 +1,7 @@
 @import "../../../styles/variables.scss";
 
 .header {
-    background: $dark;
+    background: $light;
     width: 100%;
     height: $headerHeight;
     padding: 0 1.5rem;
@@ -12,7 +12,7 @@
 
     &__content {
         overflow: hidden;
-        color: $light;
+        color: $dark;
         margin: 0 auto;
         max-width: 1920px;
         height: 100%;
@@ -21,12 +21,16 @@
         justify-content: space-between;
         position: relative;
         z-index: 100;
+      
 
         &__logo {
             font-size: 2rem;
             font-weight: bold;
             text-decoration: none;
-            color: $light;
+            color: $dark;
+            display: flex;
+            height: 90px;
+            width: 90px;
         }
 
         &__nav {
@@ -136,5 +140,24 @@
                 display: none;
             }
         }
+        .subheader_content{
+            background: #000000;
+            color: #fff;
+            width: 100%;
+            margin: 0 0 60px 0;
+            height: 40px;
+            text-align: center;
+            
+            .marquee {
+                width: 100%;
+                white-space: nowrap;
+                span{
+                    margin-top: 10px;
+                }
+              }
+            
+        }
+      
     }
 }
+

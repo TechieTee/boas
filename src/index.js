@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import App from "./App";
 import ErrorPage from './ErrorPage';
-import PageOne from './pages/PageOne';
-import PageTwo from './pages/PageTwo';
+import Women from './pages/Women';
+import Men from './pages/Men';
 import PageBTN from './pages/PageBTN';
 
 
@@ -20,11 +20,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "page-one",
-        element: <PageOne />,
+        element: <Women />,
       },
       {
         path: "page-two",
-        element: <PageTwo />,
+        element: <Men />,
       },
       {
         path: "page-btn",

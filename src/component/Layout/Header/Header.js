@@ -44,8 +44,38 @@ const Header = () => {
     return (
         <header className={classes.header}>
             <div className={classes.header__content}>
+                <nav
+                    className={`${classes.header__content__nav} ${
+                        menuOpen && size.width < 768 ? classes.isMenu : ""
+                    }`}
+                >
+                    <ul>
+                        <li>
+                            <Link to="/page-one" onClick={menuToggleHandler}>
+                                Women
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/page-two" onClick={menuToggleHandler}>
+                            Men
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/page-one" onClick={menuToggleHandler}>
+                                Kids
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/page-two" onClick={menuToggleHandler}>
+                          Baby
+                            </Link>
+                        </li>
+                    
+                    </ul>
+                
+                </nav>
                 <Link to="/" className={classes.header__content__logo}>
-                    navbar
+                  <img src="https://cdn.shopify.com/s/files/1/0598/2194/9121/files/BOAS_Logo_Transparent_180x.png?v=1646145898" alt="logo"/>
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
@@ -55,22 +85,29 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                PageOne
+                               About Us
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                                PageTwo
+                            Account
                             </Link>
                         </li>
                         <li>
-                            <Link to="/page-three" onClick={menuToggleHandler}>
-                                PageThree
+                            <Link to="/page-one" onClick={menuToggleHandler}>
+                             Cart
                             </Link>
                         </li>
+                        <li>
+                            <Link to="/page-two" onClick={menuToggleHandler}>
+                        Language
+                            </Link>
+                        </li>
+                    
                     </ul>
-                    <button onClick={ctaClickHandler}>CTA Page</button>
+                
                 </nav>
+              
                 <div className={classes.header__content__toggle}>
                     {!menuOpen ? (
                         <BiMenuAltRight onClick={menuToggleHandler} />
@@ -79,6 +116,36 @@ const Header = () => {
                     )}
                 </div>
             </div>
+
+
+
+
+            <div className={classes.header__content}>
+                <nav
+                    className={`${classes.header__content__nav} ${
+                        menuOpen && size.width < 768 ? classes.isMenu : ""
+                    }`}
+                >
+                   
+                
+                </nav>
+            <div className={classes.subheader_content}>
+            <marquee className={classes.marquee} behavior="scroll" direction="left" scrollamount="100">
+ <span>FREE SHIPPING ON JEANS</span>
+  </marquee>
+            </div>
+                <nav
+                    className={`${classes.header__content__nav} ${
+                        menuOpen && size.width < 768 ? classes.isMenu : ""
+                    }`}
+                >
+                  
+                
+                </nav>
+              
+              
+            </div>
+          
         </header>
     );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-const PageTwo = () => {
+const Men = () => {
     return <h1>
     
 
@@ -10,4 +10,4 @@ Page Two
     </h1>;
 };
 
-export default PageTwo;
+export default Men;
