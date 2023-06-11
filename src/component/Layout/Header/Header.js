@@ -130,7 +130,7 @@ const Header = () => {
                 
                 </nav>
             <div className={classes.subheader_content}>
-            <marquee className={classes.marquee} behavior="scroll" direction="left" scrollamount="100">
+            <marquee className={classes.marquee} behavior="scroll" direction="left" scrollamount="20">
  <span>FREE SHIPPING ON JEANS</span>
   </marquee>
             </div>
